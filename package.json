@@ -2,6 +2,9 @@
   "name": "template-react",
   "version": "1.0.0",
   "description": "Simple template to start to use react",
+  "scripts": {
+    "build:dev": "webpack-dev-server --config webpack.dev.config.js --open"
+  },
   "repository": "git@github.com:Centraal-Academy/template-react.git",
   "author": "DezkaReid <elmaildeldezkareid@gmail.com>",
   "license": "MIT",
